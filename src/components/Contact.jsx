@@ -9,7 +9,7 @@ const Contact = () => {
       initial={{opacity:0,y:-100}}
       transition={{duration:0.5}}
       
-      className="my-10 text-center text-4xl">Let's Meet Up</motion.h1>
+      className="my-10 text-center text-4xl">Let's catch Up together</motion.h1>
       <div className="text-center tracking-tighter">
         <a href="https://ibrahim-resume-sde.tiiny.site/" className="border-b">
           Check My resume here
