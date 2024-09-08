@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/images.jpeg";
+import project2 from "../assets/projects/Gesture.jpg";
 import project3 from "../assets/projects/explore1.jpg";
 import certificate1 from "../assets/certifications/Certificate-1.png";
 import certificate2 from "../assets/certifications/Certificate-2.png";
@@ -100,10 +100,17 @@ export const CERTIFICATES = [
 ];
 export const PROJECTS = [
   {
-    title:"Iphone 15 Pro Website Clone",
-    image:project3,
-    description:"This is a clone of the official Apple Iphone 15  pro website bringing the sleeve design and functionality to life using",
-    technologies:["React.js","Three.js","React Three Fiber" ,"GSAP(greenstock)","Tailwind CSS"],
+    title: "Iphone 15 Pro Website Clone",
+    image: project3,
+    description:
+      "This is a clone of the official Apple Iphone 15  pro website bringing the sleeve design and functionality to life using",
+    technologies: [
+      "React.js",
+      "Three.js",
+      "React Three Fiber",
+      "GSAP(greenstock)",
+      "Tailwind CSS",
+    ],
   },
   {
     title: "Dynamic Weather Application",
@@ -119,7 +126,6 @@ export const PROJECTS = [
       "Implemented custom guesture recognition algorithm and Integrated PyAutoGUI to Translate hand moments into precise mouse actions",
     technologies: ["Python", "OpenCV", "MediaPipe"],
   },
-  
 ];
 
 export const CONTACT = {
