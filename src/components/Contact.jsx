@@ -1,35 +1,83 @@
+import React from 'react';
+import { motion } from "framer-motion";
 import { CONTACT } from "../constants";
-import {motion} from "framer-motion";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+  };
+
   return (
-    <div className="border-b border-neutral-900 pb-200">
+    <motion.div
+      className="border-b border-neutral-900 pb-20"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      variants={{
+        visible: { transition: { staggerChildren: 0.2 } }
+      }}
+    >
       <motion.h1
-      whileInView={{opacity:1,y:0}}
-      initial={{opacity:0,y:-100}}
-      transition={{duration:0.5}}
-      
-      className="my-10 text-center text-4xl">Let's catch Up together</motion.h1>
+        variants={fadeInUp}
+        className="my-10 text-center text-4xl"
+      >
+        Contact Me
+      </motion.h1>
       <div className="text-center tracking-tighter">
-        <a href="https://ibrahim-resume-sde.tiiny.site/" className="border-b">
+        <motion.a
+          href="https://ibrahim-resume-sde.tiiny.site/"
+          className="border-b inline-block"
+          variants={fadeInUp}
+        >
           Check My resume here
-        </a>
+        </motion.a>
         <motion.p
-        whileInView={{opacity:1,x:0}}
-        initial={{opacity:0,x:-100}}
-        transition={{duration:1}}
-        className="my-4">{CONTACT.address}</motion.p>
+          variants={fadeInUp}
+          className="my-4"
+        >
+          {CONTACT.address}
+        </motion.p>
         <motion.p
-         whileInView={{opacity:1,x:0}}
-         initial={{opacity:0,x:100}}
-         transition={{duration:1}}
-        
-        className="my-4">{CONTACT.phoneNo}</motion.p>
-        <a href="#" className="border-b">
+          variants={fadeInUp}
+          className="my-4"
+        >
+          {CONTACT.phoneNo}
+        </motion.p>
+        <motion.a
+          href="#"
+          className="border-b inline-block"
+          variants={fadeInUp}
+        >
           {CONTACT.email}
-        </a>
+        </motion.a>
+        <motion.div
+          className="mt-6 flex justify-center gap-6 text-2xl"
+          variants={fadeInUp}
+        >
+          <motion.a
+            href="https://www.linkedin.com/in/patanmohammedibrahimkhan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <FaLinkedin />
+          </motion.a>
+          <motion.a
+            href="https://github.com/IbrahimKhanMd"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <FaGithub />
+          </motion.a>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
