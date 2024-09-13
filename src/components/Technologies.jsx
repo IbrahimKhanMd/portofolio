@@ -3,7 +3,8 @@ import { FaFigma } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoHtml5 } from "react-icons/io";
-import { animate, motion } from "framer-motion";
+import { DiMongodb } from "react-icons/di";
+import { motion } from "framer-motion";
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },
@@ -20,7 +21,7 @@ const iconvariants = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="bordr-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-800 pb-24">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -74,6 +75,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <IoLogoHtml5 className="text-7xl text-red-400" />
+        </motion.div>
+        <motion.div
+          variants={iconvariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiMongodb className="text-7xl text-green-500" />
         </motion.div>
       </motion.div>
     </div>

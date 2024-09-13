@@ -7,6 +7,7 @@ import certificate3 from "../assets/certifications/Certificate-3.jpeg";
 import certificate4 from "../assets/certifications/Certificate-4.jpeg";
 import certificate5 from "../assets/certifications/Certificate5.jpg";
 import certificate6 from "../assets/certifications/Certificate6.jpeg";
+import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import { image } from "framer-motion/client";
 
 export const HERO_CONTENT = ` Welcome to my personal website! I am Mohammed Ibrahim Khan, a dedicated pre-final year student at VIT-AP University, majoring in Computer Science with a specialization in Business Systems. My passion lies in front-end development, where I excel in crafting intuitive user interfaces and experiences through my expertise in UI/UX design. In addition to my technical skills, I possess a strong foundation in data analytics and machine learning model training. My leadership abilities and marketing acumen have further enriched my academic journey, enabling me to approach challenges with a strategic mindset. Join me as I explore the intersection of technology and business! `;
@@ -33,18 +34,7 @@ export const EXPERIENCES = [
       " Product Promotion",
     ],
   },
-  {
-    year: "Mar 2024 -May 2024",
-    role: "Business Development Intern",
-    company: "Pawzz Foundation",
-    description: `Pawzz Foundation is an NGO working for the welfare of stray animals, especially stray dogs constantly facing survival threats. My responsibility is to help the organization by raising funds for its work. I utilize my networking skills to help.`,
-    technologies: [
-      "Networking ",
-      "Fund-raising ",
-      "Public relations ",
-      "NonProfit Volunteering ",
-    ],
-  },
+  
 ];
 
 export const CERTIFICATES = [
@@ -96,6 +86,14 @@ export const CERTIFICATES = [
     description:
       "Secured first place by demonstrating  exceptional creativity,problem solving skills and also Contributed in organising a a gamified hackathon",
     technologies: ["Pitching", "team-management", "coding tests", "Mointoring"],
+  },
+  {
+    title:
+      "MongoDB Developer's ToolKit - By GeeksforGeeks",
+    image: certificate7,
+    description:
+      "Successfully learned MongoDB and it's tools like Atlas and Compass and Mastered CRUD Operations ",
+    technologies: ["Data Modelling ", "Indexing ", "No SQL database integration", "Advanced querying"],
   },
 ];
 export const PROJECTS = [
