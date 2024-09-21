@@ -7,7 +7,7 @@ Tool/Framework	    Description
 React	           Used to build the user interface of the portfolio website.
 
 Tailwind CSS	   Utilized for styling and designing the visual elements of the portfolio
-.
+
 Framer Motion	   Incorporated to add animations and transitions, enhancing the overall user experience of the portfolio.
 
 
