@@ -34,7 +34,15 @@ export const EXPERIENCES = [
       " Product Promotion",
     ],
   },
-  
+  {
+    year:" Sept 2024 - Oct 2024",
+    role: "Managing Volunteer",
+    company:"NASA SPACE APPS CHALLENGE",
+    description:`Led a successful volunteer effort at NASA Space Apps Challenge, fostering a great event .`,
+    technologies: [
+       "Volunteering","Event Management","Team Coordination","Strategic Decision making "
+    ],
+  },
 ];
 
 export const CERTIFICATES = [
