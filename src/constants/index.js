@@ -5,14 +5,14 @@ import certificate1 from "../assets/certifications/Certificate-1.png";
 import certificate2 from "../assets/certifications/Certificate-2.png";
 import certificate3 from "../assets/certifications/Certificate-3.jpeg";
 import certificate4 from "../assets/certifications/Certificate-4.jpeg";
-import certificate5 from "../assets/certifications/Certificate5.jpg";
+import certificate5 from "../assets/certifications/Certificate5.png";
 import certificate6 from "../assets/certifications/Certificate6.jpeg";
 import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import { image } from "framer-motion/client";
 
-export const HERO_CONTENT = ` Welcome to my personal website! I am Mohammed Ibrahim Khan, a dedicated pre-final year student at VIT-AP University, majoring in Computer Science with a specialization in Business Systems. My passion lies in front-end development, where I excel in crafting intuitive user interfaces and experiences through my expertise in UI/UX design. In addition to my technical skills, I possess a strong foundation in data analytics and machine learning model training. My leadership abilities and marketing acumen have further enriched my academic journey, enabling me to approach challenges with a strategic mindset. Join me as I explore the intersection of technology and business! `;
+export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a pre-final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
 
-export const ABOUT_TEXT = `I am a passionate software developer proficient in Python, C, and C++, with a strong command of data structures and algorithms. My expertise extends to web development, employing front-end tools such as HTML5, CSS3, JavaScript, React, and Bootstrap to create dynamic and responsive applications. Specializing in machine learning and artificial intelligence, I leverage powerful tools like TensorFlow and Keras for comprehensive data analysis and visualization. With esteemed certifications from Harvard, AWS, and IBM, I blend technical skills with project management and leadership capabilities. I am enthusiastic about contributing to innovative projects and thriving in collaborative environments, where I can drive success and make a meaningful impact.`;
+export const ABOUT_TEXT = `I am a skilled software developer proficient in Python, C, and C++, with expertise in data structures and algorithms. Specializing in web development with tools like HTML5, CSS3, JavaScript, React, and Bootstrap, I focus on machine learning and AI using TensorFlow and Keras. Certified by Harvard, AWS, and IBM, and an NPTEL silver medalist in Responsible AI systems, I aim to contribute to innovative projects and thrive in collaborative environments.`;
 
 export const EXPERIENCES = [
   {
@@ -81,11 +81,11 @@ export const CERTIFICATES = [
     technologies: ["Google Analytics ", "SEO", "Word-press"],
   },
   {
-    title: "Certification of Participation in Grid-6.0 -Flipkart",
+    title: "Responsible & Safe A.I systems - Nptel ",
     image: certificate5,
     description:
-      "Successfully got qualified and reached level 1.2 And secured the place of top 20 teams from the university",
-    technologies: ["Aplittude", "Reasoning", "CS fundamnetals"],
+      "Successfully earned my Certificate with the total Score of 82% ",
+    technologies: ["Responsible A.I", "Safe Systems ", "A.I & Ml "],
   },
   {
     title:
