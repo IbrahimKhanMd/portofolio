@@ -28,11 +28,11 @@ const Contact = () => {
       </motion.h1>
       <div className="text-center tracking-tighter">
         <motion.a
-          href="https://ibrahim-resume-sderes.tiiny.site/"
+          href="https://myresume-document.tiiny.site"
           className="border-b inline-block"
           variants={fadeInUp}
         >
-          Check My resume here
+          Checkout My Resume 
         </motion.a>
         <motion.p
           variants={fadeInUp}
