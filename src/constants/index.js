@@ -136,6 +136,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "VIT-AP University Andhra Pradesh ",
-  phoneNo: "+91 1234567891",
+  phoneNo: "+91 7013071313",
   email: "patanmohammedibrahimkhan@gmail.com",
 };
