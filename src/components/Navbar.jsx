@@ -10,9 +10,11 @@ const Navbar = () => {
     { id: 'about', name: 'About' },
     { id: 'technologies', name: 'Technologies' },
     { id: 'experience', name: 'Experience' },
-    { id: 'projects', name: 'Projects' },
     { id: 'certifications', name: 'Certifications' },
+    { id: 'achievements', name: 'Achievements' },
+    { id: 'projects', name: 'Projects' },
     { id: 'contact', name: 'Contact' },
+    
   ];
 
   useEffect(() => {

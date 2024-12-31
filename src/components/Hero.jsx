@@ -32,7 +32,7 @@ const Hero = () => {
               dragConstraints={{ left: -100, right: 100 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-2xl tracking-tight text-transparent"
             >
-              Junior Developer
+              Student Developer
             </motion.span>
             <motion.p
               variants={container(1)}

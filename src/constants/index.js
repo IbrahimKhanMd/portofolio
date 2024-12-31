@@ -6,13 +6,17 @@ import certificate2 from "../assets/certifications/Certificate-2.png";
 import certificate3 from "../assets/certifications/Certificate-3.jpeg";
 import certificate4 from "../assets/certifications/Certificate-4.jpeg";
 import certificate5 from "../assets/certifications/Certificate5.png";
-import certificate6 from "../assets/certifications/Certificate6.jpeg";
+import Achievement1  from "../assets/Achievements/A1.jpg";
+import Achievement2 from "../assets/Achievements/A2.jpeg";
 import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import { image } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a pre-final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
 
-export const ABOUT_TEXT = `I am a skilled software developer proficient in Python, C, and C++, with expertise in data structures and algorithms. Specializing in web development with tools like HTML5, CSS3, JavaScript, React, and Bootstrap, I focus on machine learning and AI using TensorFlow and Keras. Certified by Harvard, AWS, and IBM, and an NPTEL silver medalist in Responsible AI systems, I aim to contribute to innovative projects and thrive in collaborative environments.`;
+export const ABOUT_TEXT = `I am a proficient software developer with a strong foundation in Python, C, and C++, complemented by in-depth expertise in data structures and algorithms. My specialization lies in web development, leveraging modern technologies like HTML5, CSS3, JavaScript, React, and Bootstrap to craft responsive and user-centric applications. With a focus on artificial intelligence and machine learning, I utilize tools such as TensorFlow and Keras to build innovative, data-driven solutions.  
+Certified by prestigious institutions like Harvard, AWS, and IBM, I am also an NPTEL silver medalist in Responsible AI Systems, reflecting my commitment to ethical AI development and responsible deployment practices.  
+With over 500+ hours of hands-on coding experience, I have successfully delivered projects that showcase my problem-solving acumen and technical prowess. My passion for continuous learning ensures that I stay at the forefront of evolving technologies and industry best practices.  
+I am dedicated to writing clean, maintainable, and scalable code while adhering to software development best practices. My professional experience includes working in agile environments and using version control systems like Git to foster seamless collaboration. I thrive in dynamic team settings and am eager to contribute to groundbreaking projects that push the boundaries of innovation.`;
 
 export const EXPERIENCES = [
   {
@@ -87,14 +91,7 @@ export const CERTIFICATES = [
       "Successfully earned my Certificate with the total Score of 82% ",
     technologies: ["Responsible A.I", "Safe Systems ", "A.I & Ml "],
   },
-  {
-    title:
-      "Speaking hacakathon Winner and Event Organizer - CSI CHAPTER VIT-AP ",
-    image: certificate6,
-    description:
-      "Secured first place by demonstrating  exceptional creativity,problem solving skills and also Contributed in organising a a gamified hackathon",
-    technologies: ["Pitching", "team-management", "coding tests", "Mointoring"],
-  },
+  
   {
     title:
       "MongoDB Developer's ToolKit - By GeeksforGeeks",
@@ -131,6 +128,26 @@ export const PROJECTS = [
     description:
       "Implemented custom guesture recognition algorithm and Integrated PyAutoGUI to Translate hand moments into precise mouse actions",
     technologies: ["Python", "OpenCV", "MediaPipe"],
+  },
+];
+export const ACHIEVEMENTS = [
+  {
+    title: "First Prize in Colloquy Competition - RVR&JC Engineering College",
+    image: Achievement1,
+    year: "2024",
+    category: "Soft skills Competition",
+    description: "1st Prize in the Colloquy Event conducted by the Department of Computer Science and Business Systems as part of Colorido, the technical fest at RVR&JC Engineering College",
+    impact: "Demonstrated superior group discussion and communication skills against competing finalists",
+    technologies: ["Communication", "Group Discussions", "Coordination", "Persuasion"],
+  },
+  {
+    title: "Speaking Hackathon Winner and Event Organizer - CSI CHAPTER VIT-AP",
+    image: Achievement2,
+    year: "2023",
+    category: "Competition & Leadership",
+    description: "Secured first place by demonstrating exceptional creativity, problem solving skills and also Contributed in organising a gamified hackathon",
+    impact: "Led successful organization of the event while also winning first place, demonstrating both leadership and technical excellence",
+    technologies: ["Pitching", "Team Management", "Coding Tests", "Monitoring"],
   },
 ];
 
