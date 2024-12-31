@@ -28,7 +28,7 @@ const Contact = () => {
       </motion.h1>
       <div className="text-center tracking-tighter">
         <motion.a
-          href="https://myresume-document.tiiny.site"
+          href="https://ibrahimkhan-jan2025resume.tiiny.site"
           className="border-b inline-block"
           variants={fadeInUp}
         >
