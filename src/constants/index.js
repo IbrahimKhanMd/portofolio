@@ -9,6 +9,9 @@ import certificate5 from "../assets/certifications/Certificate5.png";
 import Achievement1  from "../assets/Achievements/A1.jpg";
 import Achievement2 from "../assets/Achievements/A2.jpeg";
 import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
+import certificate8 from "../assets/certifications/Certificate-8.png";
+import certificate9 from "../assets/certifications/Certificate-9.png";
+import certificate10 from "../assets/certifications/Certificate-10.png";
 import { image } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a pre-final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
@@ -51,7 +54,32 @@ export const EXPERIENCES = [
 
 export const CERTIFICATES = [
   {
-    title: "Applied AI Developer Program - IBM: ",
+    title: "Salesforce Certified AI Specialist",
+    image: certificate9,
+    description:`Mastered advanced AI capabilities, responsible AI deployment, and integration of AI solutions within Salesforce ecosystem.`,
+  technologies: ["Einstein Trust Layer", "Agentforce", "Model Builder", "Gen AI in CRM"],
+  },
+  {
+    title: "Salesforce Certified AI Associate",
+    image: certificate8,
+    description: `Demonstrated foundational knowledge of AI concepts, ethical considerations, and AI applications in business.`,
+    "technologies": ["AI Fundamentals", "Ethical AI", "AI Capabilities in CRM", "Data for AI"],
+  },
+  {
+    title: "Responsible & Safe A.I systems - Nptel ",
+    image: certificate5,
+    description:
+      "Successfully earned my Certificate with the total Score of 82% ",
+    technologies: ["Responsible A.I", "Safe Systems ", "A.I & Ml "],
+  },
+  {
+    title: "TCS iON Career Edge-Young Professional",
+    image: certificate10,
+    description: `Enhanced skills in communication, resume writing, interview preparation, and business etiquette for a successful placement journey.`,
+    technologies: ["Communication Skills", "Resume Writing", "Interview Preparation", "Business Etiquette"],
+  },
+  {
+    title: "Applied AI Developer Program - IBM",
     image: certificate1,
     description:
       "Gained expertise in AI fundamentals , generative A.I , Prompt Engineering and Python for AI Applications",
@@ -84,13 +112,7 @@ export const CERTIFICATES = [
       "Acquired comprehensive digitial Marketing strategies for organisational success and personal branding.",
     technologies: ["Google Analytics ", "SEO", "Word-press"],
   },
-  {
-    title: "Responsible & Safe A.I systems - Nptel ",
-    image: certificate5,
-    description:
-      "Successfully earned my Certificate with the total Score of 82% ",
-    technologies: ["Responsible A.I", "Safe Systems ", "A.I & Ml "],
-  },
+  
   
   {
     title:
@@ -115,13 +137,7 @@ export const PROJECTS = [
       "Tailwind CSS",
     ],
   },
-  {
-    title: "Dynamic Weather Application",
-    image: project1,
-    description:
-      "Build a weather application which Shows live weather forecast and the necessary information ",
-    technologies: ["HTML", "CSS", "React", "RESTful API's"],
-  },
+
   {
     title: "Gesture Navigation using computer vision",
     image: project2,
