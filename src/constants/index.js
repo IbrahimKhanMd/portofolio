@@ -12,23 +12,28 @@ import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import certificate8 from "../assets/certifications/Certificate-8.png";
 import certificate9 from "../assets/certifications/Certificate-9.png";
 import certificate10 from "../assets/certifications/Certificate-10.png";
+import Csi from "../assets/experiences/Csi.jpeg";
+import Nasa from "../assets/Experiences/Nasa.png";
+import Tedx from "../assets/Experiences/tedx.png";
 import { image } from "framer-motion/client";
 
 export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a pre-final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
 
-export const ABOUT_TEXT = `I am a proficient software developer with a strong foundation in Python, C, and C++, complemented by in-depth expertise in data structures and algorithms. My specialization lies in web development, leveraging modern technologies like HTML5, CSS3, JavaScript, React, and Bootstrap to craft responsive and user-centric applications. With a focus on artificial intelligence and machine learning, I utilize tools such as TensorFlow and Keras to build innovative, data-driven solutions.  
+/*export const ABOUT_TEXT = `I am a proficient software developer with a strong foundation in Python, C, and C++, complemented by in-depth expertise in data structures and algorithms. My specialization lies in web development, leveraging modern technologies like HTML5, CSS3, JavaScript, React, and Bootstrap to craft responsive and user-centric applications. With a focus on artificial intelligence and machine learning, I utilize tools such as TensorFlow and Keras to build innovative, data-driven solutions.  
 Certified by prestigious institutions like Harvard, AWS, and IBM, I am also an NPTEL silver medalist in Responsible AI Systems, reflecting my commitment to ethical AI development and responsible deployment practices.  
 With hours of hands-on coding experience, I have successfully delivered projects that showcase my problem-solving acumen and technical prowess. My passion for continuous learning ensures that I stay at the forefront of evolving technologies and industry best practices.  
-I am dedicated to writing clean, maintainable, and scalable code while adhering to software development best practices. My professional experience includes working in agile environments and using version control systems like Git to foster seamless collaboration. I thrive in dynamic team settings and am eager to contribute to groundbreaking projects that push the boundaries of innovation.`;
+I am dedicated to writing clean, maintainable, and scalable code while adhering to software development best practices. My professional experience includes working in agile environments and using version control systems like Git to foster seamless collaboration. I thrive in dynamic team settings and am eager to contribute to groundbreaking projects that push the boundaries of innovation.`;*/
 
 export const EXPERIENCES = [
   {
-    year: " Oct 2023 - Present",
-    role: "Techincal team ",
-    company: "CSI Chapter VIT-AP.",
-    description: `Workshops, tutorials, and skill-development programs are the main efforts that V Learn concentrates on to assist students learn programming languages in engaging ways .My role is in the V-LEARN department and my work is to help the core team conduct workshops, guest lectures and host events.`,
+    year: "Oct 2023 - Present",
+    role: "Technical team",
+    company: "CSI Chapter VIT-AP",
+    description: `Workshops, tutorials, and skill-development programs are the main efforts that V Learn concentrates on to assist students learn programming languages in engaging ways. My role is in the V-LEARN department and my work is to help the core team conduct workshops, guest lectures and host events.`,
     technologies: ["Javascript", "React.js", "Python", "Figma"],
-  },
+    image: Csi,  // Add this new field
+},
+  
   {
     year: "Mar 2024 - Apr 2024",
     role: "Student Volunteer",
@@ -40,6 +45,7 @@ export const EXPERIENCES = [
       "Communication",
       " Product Promotion",
     ],
+    image: Tedx,
   },
   {
     year:" Sept 2024 - Oct 2024",
@@ -49,6 +55,7 @@ export const EXPERIENCES = [
     technologies: [
        "Volunteering","Event Management","Team Coordination","Strategic Decision making "
     ],
+    image:Nasa
   },
 ];
 
@@ -105,15 +112,13 @@ export const CERTIFICATES = [
       "Mastered AWS cloud architecture solution design,data lake implementation and security best practices",
     technologies: ["Amazon EC2", "Cloud Computing", "Security"],
   },
-  {
+  /*{
     title: "Digitial Marketing masterclass - Udemy",
     image: certificate4,
     description:
       "Acquired comprehensive digitial Marketing strategies for organisational success and personal branding.",
     technologies: ["Google Analytics ", "SEO", "Word-press"],
-  },
-  
-  
+  },*/  
   {
     title:
       "MongoDB Developer's ToolKit - By GeeksforGeeks",

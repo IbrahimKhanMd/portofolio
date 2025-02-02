@@ -22,6 +22,21 @@ const Experience = () => {
               className="w-full lg:w-1/4 mb-2 lg:mb-0"
             >
               <p className="text-sm text-neutral-400">{Experience.year}</p>
+              {Experience.image && (
+                <motion.div
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  transition={{ duration: 0.5 }}
+                  className="mt-2 rounded-lg overflow-hidden"
+                >
+                  <img
+                    src={Experience.image}
+                    alt={`${Experience.company} experience`}
+                    className="w-full max-w-[200px] h-auto object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                    loading="lazy"
+                  />
+                </motion.div>
+              )}
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -40,7 +55,7 @@ const Experience = () => {
                 {Experience.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-stone-100 "
                   >
                     {tech}
                   </span>
