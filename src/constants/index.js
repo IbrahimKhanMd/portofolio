@@ -12,7 +12,7 @@ import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import certificate8 from "../assets/certifications/Certificate-8.png";
 import certificate9 from "../assets/certifications/Certificate-9.png";
 import certificate10 from "../assets/certifications/Certificate-10.png";
-import Csi from "../assets/experiences/Csi.jpeg";
+import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
 import { image } from "framer-motion/client";
@@ -31,7 +31,7 @@ export const EXPERIENCES = [
     company: "CSI Chapter VIT-AP",
     description: `Workshops, tutorials, and skill-development programs are the main efforts that V Learn concentrates on to assist students learn programming languages in engaging ways. My role is in the V-LEARN department and my work is to help the core team conduct workshops, guest lectures and host events.`,
     technologies: ["Javascript", "React.js", "Python", "Figma"],
-    image: Csi,  // Add this new field
+    image: csi,  // Add this new field
 },
   
   {
