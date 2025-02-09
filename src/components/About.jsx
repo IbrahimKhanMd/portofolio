@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutImg from "../assets/profile.jpg";
+import aboutImg2 from "../assets/About2.jpg";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
           <div className="max-w-md">
             <img
               className="w-full h-auto object-cover rounded-lg shadow-lg"
-              src={aboutImg}
+              src={aboutImg2}
               alt="About"
             />
           </div>
