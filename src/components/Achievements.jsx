@@ -52,7 +52,7 @@ const Achievements = () => {
               <p className="mb-4 text-neutral-400 italic">
                 Impact: {achievement.impact}
               </p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-4">
                 {achievement.technologies.map((tech, index) => (
                   <span
                     key={index}
@@ -62,6 +62,16 @@ const Achievements = () => {
                   </span>
                 ))}
               </div>
+              {achievement.verificationLink && (
+                <a
+                  href={achievement.verificationLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded bg-neutral-800 px-4 py-2 text-sm font-medium text-neutral-300 hover:bg-neutral-700 transition-colors hover:shadow-lg hover:shadow-purple-500/50"
+                >
+                 See My Achievements
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

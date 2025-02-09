@@ -61,6 +61,16 @@ const Experience = () => {
                   </span>
                 ))}
               </div>
+              {Experience.verificationLink && (
+                <a
+                  href={Experience.verificationLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 rounded bg-neutral-800 px-4 py-2 text-sm font-medium text-neutral-300 hover:bg-neutral-700 transition-colors hover:shadow-lg hover:shadow-purple-500/50"
+                >
+                  See my Experience 
+                </a>
+              )}
             </motion.div>
           </div>
         ))}

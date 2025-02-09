@@ -26,36 +26,48 @@ const Contact = () => {
       >
         Contact Me
       </motion.h1>
-      <div className="text-center tracking-tighter">
-        <motion.a
-          href="https://ibrahimkhan-jan2025resume.tiiny.site"
-          className="border-b inline-block"
-          variants={fadeInUp}
-        >
-          Checkout My Resume 
-        </motion.a>
-        <motion.p
-          variants={fadeInUp}
-          className="my-4"
-        >
-          {CONTACT.address}
-        </motion.p>
-        <motion.p
-          variants={fadeInUp}
-          className="my-4"
-        >
-          {CONTACT.phoneNo}
-        </motion.p>
-        <motion.a
-          href="#"
-          className="border-b inline-block"
-          variants={fadeInUp}
-        >
-          {CONTACT.email}
-        </motion.a>
+
+      {/* Main content container with two cards */}
+      <div className="max-w-5xl mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Address Card */}
+          <motion.div
+            variants={fadeInUp}
+            className="bg-neutral-800/50 rounded-lg p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300"
+          >
+            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">Contact Address</h2>
+            <div className="space-y-3 text-neutral-400">
+              <p>{CONTACT.address}</p>
+              <p>{CONTACT.phoneNo}</p>
+              <a href={`mailto:${CONTACT.email}`} className="text-cyan-400 hover:text-cyan-300 transition-colors">
+                {CONTACT.email}
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Resume Card */}
+          <motion.div
+            variants={fadeInUp}
+            className="bg-neutral-800/50 rounded-lg p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300 flex flex-col justify-between"
+          >
+            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">Check Out My Resume</h2>
+            <div>
+              <a
+                href="https://ibrahimkhan-jan2025resume.tiiny.site"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
+              >
+                View Resume
+              </a>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Social Links */}
         <motion.div
-          className="mt-6 flex justify-center gap-6 text-2xl"
           variants={fadeInUp}
+          className="mt-12 flex justify-center gap-6 text-2xl"
         >
           <motion.a
             href="https://www.linkedin.com/in/patanmohammedibrahimkhan/"
@@ -63,6 +75,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
+            className="text-neutral-400 hover:text-cyan-400 transition-colors"
           >
             <FaLinkedin />
           </motion.a>
@@ -72,6 +85,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
+            className="text-neutral-400 hover:text-cyan-400 transition-colors"
           >
             <FaGithub />
           </motion.a>

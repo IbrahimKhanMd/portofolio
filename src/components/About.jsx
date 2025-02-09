@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutImg2 from "../assets/About2.jpg";
+import aboutImg2 from "../assets/about2.jpg";
 
 const About = () => {
   return (
@@ -34,31 +34,31 @@ const About = () => {
           className="w-full lg:w-1/2 lg:pl-8 mt-8 lg:mt-0"
         >
           <div className="flex flex-col space-y-6 max-w-xl">
-            {/* Introduction */}
-            <p className="text-neutral-300 leading-relaxed">
-              A passionate software developer specializing in web development and artificial intelligence, with a strong grasp of core programming principles and modern technologies.
-            </p>
+            
+                  <p className="text-neutral-300 leading-relaxed">
+                    A passionate software developer specializing in web development and artificial intelligence, with a strong grasp of core programming principles and modern technologies.
+                  </p>
 
-            {/* Core Skills */}
-            <div>
-              <h3 className="text-xl font-semibold mb-3 text-purple-100">Expertise </h3>
-              <ul className="space-y-2 text-neutral-400">
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span> Programming: Proficient in Python, C, and C++, with deep expertise in data structures and algorithms</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span> Frontend Development: Skilled in HTML5, CSS3, JavaScript, React, and Bootstrap for dynamic, user-centric interfaces</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>Proficient with Data Analysis tools and design tools like Figma </span>
-                </li>
-              </ul>
-            </div>
+                  {/* Core Skills */}
+                  <div>
+                    <h3 className="text-xl font-semibold mb-3 text-purple-100">Expertise</h3>
+                    <ul className="space-y-2 text-neutral-400">
+                    <li className="flex items-start">
+                      <span className="text-purple-500 mr-2">▹</span>
+                      <span>Programming: Proficient in Python, C, and C++, with deep expertise in data structures and algorithms</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-500 mr-2">▹</span>
+                      <span>Frontend Development: Skilled in HTML5, CSS3, JavaScript, React, and Bootstrap for creating dynamic, user-centric interfaces</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-purple-500 mr-2">▹</span>
+                      <span>Event Management: An engineer with complementary skills in event management for better project coordination</span>
+                    </li>
+                    </ul>
+                  </div>
 
-            {/* Certifications */}
+                  {/* Certifications */}
             <div>
               <h3 className="text-xl font-semibold mb-3 text-purple-100">Achievements</h3>
               <ul className="space-y-2 text-neutral-400">
