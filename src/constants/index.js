@@ -28,7 +28,7 @@ export const EXPERIENCES = [
       "Guidance", "Event Management", "Team Coordination", "Strategic Decision Making"
     ],
     image: hackx,
-    verificationLink: "https://ibrahimportfolio.vercel.app/"
+    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_hackathonx-cybersecurity-hackathon-activity-7294732753424502784-7NFJ?utm_source=share&utm_medium=member_desktop"
     
   },
   {
@@ -50,7 +50,7 @@ export const EXPERIENCES = [
     technologies: [
       "Sales Promotion", "Marketing", "Communication", "Product Promotion"
     ],
-    verificationLink: "https://ibrahimportfolio.vercel.app/",
+    verificationLink: "https://www.linkedin.com/in/patanmohammedibrahimkhan/",
     image: Tedx,
   },
   {
