@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { CONTACT } from "../constants";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   const fadeInUp = {
@@ -88,6 +88,16 @@ const Contact = () => {
             className="text-neutral-400 hover:text-cyan-400 transition-colors"
           >
             <FaGithub />
+          </motion.a>
+          <motion.a
+            href="https://www.instagram.com/mohammedibrahimkhan.p?igsh=MTZzdjBrb3JrZWVlcw=="
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="text-neutral-400 hover:text-cyan-400 transition-colors"
+          >
+            <FaInstagram />
           </motion.a>
         </motion.div>
       </div>
