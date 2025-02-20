@@ -9,6 +9,12 @@ const Contact = () => {
     visible: { opacity: 1, y: 0 }
   };
 
+  const handleGetInTouch = () => {
+    // Construct the Gmail URL with a pre-filled draft
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT.email)}`;
+    window.open(gmailUrl, "_blank"); // Open in a new tab
+  };
+
   return (
     <motion.div
       className="border-b border-neutral-900 pb-20"
@@ -42,6 +48,12 @@ const Contact = () => {
               <a href={`mailto:${CONTACT.email}`} className="text-cyan-400 hover:text-cyan-300 transition-colors">
                 {CONTACT.email}
               </a>
+              <button
+                onClick={handleGetInTouch}
+                className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 mt-4"
+              >
+                Get in Touch
+              </button>
             </div>
           </motion.div>
 
@@ -58,7 +70,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
               >
-                View Resume
+                View My Resume
               </a>
             </div>
           </motion.div>
@@ -104,5 +116,4 @@ const Contact = () => {
     </motion.div>
   );
 };
-
 export default Contact;
