@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import Achievements from "./components/Achievements";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -15,14 +16,33 @@ const App = () => {
       <Navbar />
       <div className="relative z-10 pt-16">
         <div className="container mx-auto px-8">
-          <div id="hero"><Hero /></div>
-          <div id="about"><About /></div>
-          <div id="technologies"><Technologies /></div>
-          <div id="experience"><Experience /></div>
-          <div id="certifications"><Certifications /></div>
-          <div id="achievements"><Achievements /></div> 
-          <div id="projects"><Projects /></div>
-          <div id="contact"><Contact /></div>
+          <div id="hero">
+            <Hero />
+          </div>
+          <div id="about">
+            <About />
+          </div>
+          <div id="technologies">
+            <Technologies />
+          </div>
+          <div id="experience">
+            <Experience />
+          </div>
+          <div id="certifications">
+            <Certifications />
+          </div>
+          <div id="achievements">
+            <Achievements />
+          </div>
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
+          <div>
+            <Analytics />
+          </div>
         </div>
       </div>
     </div>
