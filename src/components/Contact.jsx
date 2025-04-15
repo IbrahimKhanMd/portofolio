@@ -65,7 +65,7 @@ const Contact = () => {
             <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">Check Out My Resume</h2>
             <div>
               <a
-                href="https://ibrahimkhan-jan2025resume.tiiny.site"
+                href="https://ibrahimkhan-resume.tiiny.site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
