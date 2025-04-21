@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { motion } from "framer-motion";
 import { CONTACT } from "../constants";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
@@ -6,12 +6,14 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 const Contact = () => {
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 }
+    visible: { opacity: 1, y: 0 },
   };
 
   const handleGetInTouch = () => {
     // Construct the Gmail URL with a pre-filled draft
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(CONTACT.email)}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+      CONTACT.email
+    )}`;
     window.open(gmailUrl, "_blank"); // Open in a new tab
   };
 
@@ -23,13 +25,10 @@ const Contact = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       variants={{
-        visible: { transition: { staggerChildren: 0.2 } }
+        visible: { transition: { staggerChildren: 0.2 } },
       }}
     >
-      <motion.h1
-        variants={fadeInUp}
-        className="my-10 text-center text-4xl"
-      >
+      <motion.h1 variants={fadeInUp} className="my-10 text-center text-4xl">
         Contact Me
       </motion.h1>
 
@@ -41,11 +40,16 @@ const Contact = () => {
             variants={fadeInUp}
             className="bg-neutral-800/50 rounded-lg p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300"
           >
-            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">Contact Address</h2>
+            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">
+              Contact Address
+            </h2>
             <div className="space-y-3 text-neutral-400">
               <p>{CONTACT.address}</p>
               <p>{CONTACT.phoneNo}</p>
-              <a href={`mailto:${CONTACT.email}`} className="text-cyan-400 hover:text-cyan-300 transition-colors">
+              <a
+                href={`mailto:${CONTACT.email}`}
+                className="text-cyan-400 hover:text-cyan-300 transition-colors"
+              >
                 {CONTACT.email}
               </a>
               <button
@@ -62,7 +66,9 @@ const Contact = () => {
             variants={fadeInUp}
             className="bg-neutral-800/50 rounded-lg p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300 flex flex-col justify-between"
           >
-            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">Check Out My Resume</h2>
+            <h2 className="text-2xl mb-4 text-neutral-200 font-semibold">
+              Check Out My Resume
+            </h2>
             <div>
               <a
                 href="https://ibrahimkhan-resume.tiiny.site"
@@ -100,16 +106,6 @@ const Contact = () => {
             className="text-neutral-400 hover:text-cyan-400 transition-colors"
           >
             <FaGithub />
-          </motion.a>
-          <motion.a
-            href="https://www.instagram.com/mohammedibrahimkhan.p?igsh=MTZzdjBrb3JrZWVlcw=="
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="text-neutral-400 hover:text-cyan-400 transition-colors"
-          >
-            <FaInstagram />
           </motion.a>
         </motion.div>
       </div>

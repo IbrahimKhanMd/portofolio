@@ -11,6 +11,7 @@ import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import certificate8 from "../assets/certifications/Certificate-8.png";
 import certificate9 from "../assets/certifications/Certificate-9.png";
 import certificate10 from "../assets/certifications/Certificate-10.png";
+import certificate11 from "../assets/certifications/Certificate-11.png"
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -78,6 +79,13 @@ export const CERTIFICATES = [
     description: `Demonstrated foundational knowledge of AI concepts, ethical considerations, and AI applications in business.`,
     "technologies": ["AI Fundamentals", "Ethical AI", "AI Capabilities in CRM", "Data for AI"],
     verificationLink: "https://www.salesforce.com/trailblazer/rfqfg5jj8y0zlf93wk"
+  },
+  {
+    title: "Nivida Fundamentals of Deep Learning certification",
+    image: certificate11,
+    description:` Mastered neural network architectures, computer vision techniques, and deep learning fundamentals while developing skills in model training, data augmentation, and transfer learning methodologies for real-world AI applications`,
+  technologies: ["PyTorch", "CNN Architecture", "Transfer Learning", "Image Classification", "Multi-class Classification", "Data Augmentation"],
+  verificationLink: "https://learn.nvidia.com/certificates?id=TwbcxriHRqSSaScL9sB3Bw"
   },
   {
     title: "Responsible & Safe A.I systems - Nptel ",
