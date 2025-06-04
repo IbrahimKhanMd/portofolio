@@ -76,7 +76,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
               >
-                View My Resume
+                Check My Resume Here 
               </a>
             </div>
           </motion.div>
