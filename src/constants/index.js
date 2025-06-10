@@ -5,13 +5,14 @@ import certificate2 from "../assets/certifications/Certificate-2.png";
 import certificate3 from "../assets/certifications/Certificate-3.jpeg";
 import certificate4 from "../assets/certifications/Certificate-4.jpeg";
 import certificate5 from "../assets/certifications/Certificate5.png";
-import Achievement1  from "../assets/Achievements/A1.jpg";
+import Achievement1 from "../assets/Achievements/A1.jpg";
 import Achievement2 from "../assets/Achievements/A2.jpeg";
 import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import certificate8 from "../assets/certifications/Certificate-8.png";
 import certificate9 from "../assets/certifications/Certificate-9.png";
 import certificate10 from "../assets/certifications/Certificate-10.png";
-import certificate11 from "../assets/certifications/Certificate-11.png"
+import certificate11 from "../assets/certifications/Certificate-11.png";
+import certificate12 from "../assets/certifications/Certificate-12.png";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -26,11 +27,14 @@ export const EXPERIENCES = [
     company: "National Cyber Security Research Council (NCSRC)",
     description: `Successfully organized a large-scale event with 300+ participants from 13 institutions, leveraging team management and coordination skills.`,
     technologies: [
-      "Guidance", "Event Management", "Team Coordination", "Strategic Decision Making"
+      "Guidance",
+      "Event Management",
+      "Team Coordination",
+      "Strategic Decision Making",
     ],
     image: hackx,
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_hackathonx-cybersecurity-hackathon-activity-7294732753424502784-7NFJ?utm_source=share&utm_medium=member_desktop"
-    
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_hackathonx-cybersecurity-hackathon-activity-7294732753424502784-7NFJ?utm_source=share&utm_medium=member_desktop",
   },
   {
     year: "October 4th & 5th 2024",
@@ -38,10 +42,14 @@ export const EXPERIENCES = [
     company: "NASA SPACE APPS CHALLENGE",
     description: `Led a successful volunteer effort at NASA Space Apps Challenge, ensuring a well-organized event.`,
     technologies: [
-      "Volunteering", "Event Management", "Team Coordination", "Strategic Decision Making"
+      "Volunteering",
+      "Event Management",
+      "Team Coordination",
+      "Strategic Decision Making",
     ],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_spaceapps-vitap-teamwork-activity-7254877443646201857-2-Ej?utm_source=share&utm_medium=member_desktop",
-    image: Nasa
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_spaceapps-vitap-teamwork-activity-7254877443646201857-2-Ej?utm_source=share&utm_medium=member_desktop",
+    image: Nasa,
   },
   {
     year: "Mar 2024 - Apr 2024",
@@ -49,7 +57,10 @@ export const EXPERIENCES = [
     company: "TEDxVITAP",
     description: `Enhanced the 2024 season through effective marketing strategies, resulting in a diverse and enthusiastic audience. Implemented engaging promotional activities, including interactive games, significantly boosting ticket sales and interest.`,
     technologies: [
-      "Sales Promotion", "Marketing", "Communication", "Product Promotion"
+      "Sales Promotion",
+      "Marketing",
+      "Communication",
+      "Product Promotion",
     ],
     verificationLink: "https://www.linkedin.com/in/patanmohammedibrahimkhan/",
     image: Tedx,
@@ -60,32 +71,68 @@ export const EXPERIENCES = [
     company: "CSI Chapter VIT-AP",
     description: `Assisted in conducting workshops, guest lectures, and hosting events to help students learn programming languages in engaging ways as part of the V-LEARN department.`,
     technologies: ["JavaScript", "React.js", "Python", "Figma"],
-    verificationLink: " https://www.linkedin.com/posts/patanmohammedibrahimkhan_csi-cs-vit-activity-7219025830985785345-0CSI?utm_source=share&utm_medium=member_desktop",
+    verificationLink:
+      " https://www.linkedin.com/posts/patanmohammedibrahimkhan_csi-cs-vit-activity-7219025830985785345-0CSI?utm_source=share&utm_medium=member_desktop",
     image: csi,
   },
 ];
 
 export const CERTIFICATES = [
   {
+    title: "Microsoft Certified: Azure Data Fundamentals",
+    image: certificate12,
+    description:
+      "Built a solid foundation in core data concepts, data processing workloads, and key Azure data services including relational, non-relational, and analytical data solutions.",
+    technologies: [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Power BI",
+    ],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_microsoftcertified-azure-datafundamentals-activity-7338056374628601856-XVNi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nPPkBOMaTJC__6_0OJKwaWPwYVZxRCbg",
+  },
+  {
     title: "Salesforce Certified AI Specialist",
     image: certificate9,
-    description:`Mastered advanced AI capabilities, responsible AI deployment, and integration of AI solutions within Salesforce ecosystem.`,
-  technologies: ["Einstein Trust Layer", "Agentforce", "Model Builder", "Gen AI in CRM"],
-  verificationLink: "https://www.salesforce.com/trailblazer/rfqfg5jj8y0zlf93wk"
+    description: `Mastered advanced AI capabilities, responsible AI deployment, and integration of AI solutions within Salesforce ecosystem.`,
+    technologies: [
+      "Einstein Trust Layer",
+      "Agentforce",
+      "Model Builder",
+      "Gen AI in CRM",
+    ],
+    verificationLink:
+      "https://www.salesforce.com/trailblazer/rfqfg5jj8y0zlf93wk",
   },
   {
     title: "Salesforce Certified AI Associate",
     image: certificate8,
     description: `Demonstrated foundational knowledge of AI concepts, ethical considerations, and AI applications in business.`,
-    "technologies": ["AI Fundamentals", "Ethical AI", "AI Capabilities in CRM", "Data for AI"],
-    verificationLink: "https://www.salesforce.com/trailblazer/rfqfg5jj8y0zlf93wk"
+    technologies: [
+      "AI Fundamentals",
+      "Ethical AI",
+      "AI Capabilities in CRM",
+      "Data for AI",
+    ],
+    verificationLink:
+      "https://www.salesforce.com/trailblazer/rfqfg5jj8y0zlf93wk",
   },
   {
     title: "Nivida Fundamentals of Deep Learning certification",
     image: certificate11,
-    description:` Mastered neural network architectures, computer vision techniques, and deep learning fundamentals while developing skills in model training, data augmentation, and transfer learning methodologies for real-world AI applications`,
-  technologies: ["PyTorch", "CNN Architecture", "Transfer Learning", "Image Classification", "Multi-class Classification", "Data Augmentation"],
-  verificationLink: "https://learn.nvidia.com/certificates?id=TwbcxriHRqSSaScL9sB3Bw"
+    description: ` Mastered neural network architectures, computer vision techniques, and deep learning fundamentals while developing skills in model training, data augmentation, and transfer learning methodologies for real-world AI applications`,
+    technologies: [
+      "PyTorch",
+      "CNN Architecture",
+      "Transfer Learning",
+      "Image Classification",
+      "Multi-class Classification",
+      "Data Augmentation",
+    ],
+    verificationLink:
+      "https://learn.nvidia.com/certificates?id=TwbcxriHRqSSaScL9sB3Bw",
   },
   {
     title: "Responsible & Safe A.I systems - Nptel ",
@@ -93,14 +140,21 @@ export const CERTIFICATES = [
     description:
       "Successfully earned my Certificate with the total Score of 82% ",
     technologies: ["Responsible A.I", "Safe Systems ", "A.I & Ml "],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_ai-responsibleai-certification-activity-7265382646640193536-l5HP?utm_source=share&utm_medium=member_desktop"
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_ai-responsibleai-certification-activity-7265382646640193536-l5HP?utm_source=share&utm_medium=member_desktop",
   },
   {
     title: "TCS iON Career Edge-Young Professional",
     image: certificate10,
     description: `Enhanced skills in communication, resume writing, interview preparation, and business etiquette for a successful placement journey.`,
-    technologies: ["Communication Skills", "Resume Writing", "Interview Preparation", "Business Etiquette"],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_careergrowth-tcsion-youngprofessional-activity-7291758664867057664-G7tx?utm_source=share&utm_medium=member_desktop"
+    technologies: [
+      "Communication Skills",
+      "Resume Writing",
+      "Interview Preparation",
+      "Business Etiquette",
+    ],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_careergrowth-tcsion-youngprofessional-activity-7291758664867057664-G7tx?utm_source=share&utm_medium=member_desktop",
   },
   {
     title: "Applied AI Developer Program - IBM",
@@ -114,7 +168,8 @@ export const CERTIFICATES = [
       "Prompt Engineering ",
       "Data Analytics",
     ],
-    verificationLink: "https://credentials.edx.org/credentials/696188e872f846a2804d082ddaea96b0/"
+    verificationLink:
+      "https://credentials.edx.org/credentials/696188e872f846a2804d082ddaea96b0/",
   },
   {
     title: "Exercising Leadership-Harvard University",
@@ -122,7 +177,8 @@ export const CERTIFICATES = [
     description:
       " Acquired Adaptive leadership stakeholder management and conflict resolution skills .",
     technologies: ["Time Management", "Team work", "Leadership"],
-    verificationLink: "https://courses.edx.org/certificates/88b256ce8d95476f9d2851f2304c4db7"
+    verificationLink:
+      "https://courses.edx.org/certificates/88b256ce8d95476f9d2851f2304c4db7",
   },
   {
     title: "Cloud Solutions Architecture -AWS",
@@ -130,7 +186,8 @@ export const CERTIFICATES = [
     description:
       "Mastered AWS cloud architecture solution design,data lake implementation and security best practices",
     technologies: ["Amazon EC2", "Cloud Computing", "Security"],
-    verificationLink: "https://credentials.edx.org/credentials/33d8c43f320d45158a488277a5e0eb8f/"
+    verificationLink:
+      "https://credentials.edx.org/credentials/33d8c43f320d45158a488277a5e0eb8f/",
   },
   {
     title: "Digitial Marketing masterclass - Udemy",
@@ -138,16 +195,22 @@ export const CERTIFICATES = [
     description:
       "Acquired comprehensive digitial Marketing strategies for organisational success and personal branding.",
     technologies: ["Google Analytics ", "SEO", "Word-press"],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_celebrating-my-new-certification-im-activity-7147127809356775424-ivHA?utm_source=share&utm_medium=member_desktop"
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_celebrating-my-new-certification-im-activity-7147127809356775424-ivHA?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title:
-      "MongoDB Developer's ToolKit - By GeeksforGeeks",
+    title: "MongoDB Developer's ToolKit - By GeeksforGeeks",
     image: certificate7,
     description:
       "Successfully learned MongoDB and it's tools like Atlas and Compass and Mastered CRUD Operations ",
-    technologies: ["Data Modelling ", "Indexing ", "No SQL database integration", "Advanced querying"],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_mongodb-geeksforgeeks-nosql-activity-7240403587078463488-cXDu?utm_source=share&utm_medium=member_desktop"
+    technologies: [
+      "Data Modelling ",
+      "Indexing ",
+      "No SQL database integration",
+      "Advanced querying",
+    ],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_mongodb-geeksforgeeks-nosql-activity-7240403587078463488-cXDu?utm_source=share&utm_medium=member_desktop",
   },
 ];
 export const PROJECTS = [
@@ -163,7 +226,7 @@ export const PROJECTS = [
       "GSAP(greenstock)",
       "Tailwind CSS",
     ],
-    verificationLink: "https://github.com/IbrahimKhanMd/I-phone"
+    verificationLink: "https://github.com/IbrahimKhanMd/I-phone",
   },
 
   {
@@ -172,7 +235,7 @@ export const PROJECTS = [
     description:
       "Implemented custom guesture recognition algorithm and Integrated PyAutoGUI to Translate hand moments into precise mouse actions",
     technologies: ["Python", "OpenCV", "MediaPipe"],
-    verificationLink: "https://github.com/IbrahimKhanMd/virtual_mouse_project"
+    verificationLink: "https://github.com/IbrahimKhanMd/virtual_mouse_project",
   },
 ];
 export const ACHIEVEMENTS = [
@@ -181,20 +244,31 @@ export const ACHIEVEMENTS = [
     image: Achievement1,
     year: "2024",
     category: "Soft skills Competition",
-    description: "1st Prize in the Colloquy Event conducted by the Department of Computer Science and Business Systems as part of Colorido, the technical fest at RVR&JC Engineering College",
-    impact: "Demonstrated superior group discussion and communication skills against competing finalists",
-    technologies: ["Communication", "Group Discussions", "Coordination", "Persuasion"],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_achievementunlocked-communicationskills-teamwork-activity-7279078034324762624-935M?utm_source=share&utm_medium=member_desktop" // Add your verification URL here
+    description:
+      "1st Prize in the Colloquy Event conducted by the Department of Computer Science and Business Systems as part of Colorido, the technical fest at RVR&JC Engineering College",
+    impact:
+      "Demonstrated superior group discussion and communication skills against competing finalists",
+    technologies: [
+      "Communication",
+      "Group Discussions",
+      "Coordination",
+      "Persuasion",
+    ],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_achievementunlocked-communicationskills-teamwork-activity-7279078034324762624-935M?utm_source=share&utm_medium=member_desktop", // Add your verification URL here
   },
   {
     title: "Speaking Hackathon Winner and Event Organizer - CSI CHAPTER VIT-AP",
     image: Achievement2,
     year: "2023",
     category: "Competition & Leadership",
-    description: "Secured first place by demonstrating exceptional creativity, problem solving skills and also Contributed in organising a gamified hackathon",
-    impact: "Led successful organization of the event while also winning first place, demonstrating both leadership and technical excellence",
+    description:
+      "Secured first place by demonstrating exceptional creativity, problem solving skills and also Contributed in organising a gamified hackathon",
+    impact:
+      "Led successful organization of the event while also winning first place, demonstrating both leadership and technical excellence",
     technologies: ["Pitching", "Team Management", "Coding Tests", "Monitoring"],
-    verificationLink: "https://www.linkedin.com/posts/patanmohammedibrahimkhan_celebrating-my-new-certification-im-very-activity-7092779932027670529-Cttm?utm_source=share&utm_medium=member_desktop" // Add your verification URL here
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_celebrating-my-new-certification-im-very-activity-7092779932027670529-Cttm?utm_source=share&utm_medium=member_desktop", // Add your verification URL here
   },
 ];
 
