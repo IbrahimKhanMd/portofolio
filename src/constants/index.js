@@ -80,7 +80,7 @@ export const EXPERIENCES = [
 
 export const CERTIFICATES = [
   {
-    title: "DevOps Fundamentals - Certified by IBM!",
+    title: "DevOps Fundamentals - Certified by IBM",
     image: certificate13,
     description:
       "Built a strong foundation in DevOps principles, continuous integration/delivery, and modern software development practices.",
