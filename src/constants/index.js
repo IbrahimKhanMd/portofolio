@@ -13,6 +13,7 @@ import certificate9 from "../assets/certifications/Certificate-9.png";
 import certificate10 from "../assets/certifications/Certificate-10.png";
 import certificate11 from "../assets/certifications/Certificate-11.png";
 import certificate12 from "../assets/certifications/Certificate-12.png";
+import certificate13 from "../assets/certifications/Certificate-13.jpg";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -78,6 +79,21 @@ export const EXPERIENCES = [
 ];
 
 export const CERTIFICATES = [
+  {
+    title: "DevOps Fundamentals - Certified by IBM!",
+    image: certificate13,
+    description:
+      "Built a strong foundation in DevOps principles, continuous integration/delivery, and modern software development practices.",
+    technologies: [
+      "CI/CD Pipelines",
+      "Version Control Systems",
+      "Automation & Monitoring Tools",
+      "Agile & DevOps Culture",
+      "Power BI",
+    ],
+    verificationLink:
+      "https://courses.vit.skillsnetwork.site/certificates/b27071f47ecf4eb48b7b7b328ebb761d",
+  },
   {
     title: "Microsoft Certified: Azure Data Fundamentals",
     image: certificate12,
