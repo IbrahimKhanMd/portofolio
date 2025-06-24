@@ -14,6 +14,7 @@ import certificate10 from "../assets/certifications/Certificate-10.png";
 import certificate11 from "../assets/certifications/Certificate-11.png";
 import certificate12 from "../assets/certifications/Certificate-12.png";
 import certificate13 from "../assets/certifications/Certificate-13.jpg";
+import certificate14 from "../assets/certifications/Certificate-14.jpg";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -80,6 +81,21 @@ export const EXPERIENCES = [
 
 export const CERTIFICATES = [
   {
+    title: "DevOps, Agile & Design Thinking  - Certified by IBM",
+    image: certificate14,
+    description:
+      "Learned the integration of DevOps culture, Agile methodology, and Design Thinking to deliver efficient, user-centric software solutions.",
+    technologies: [
+      "Agile & Scrum Practices",
+      "DevOps Principles",
+      "Design Thinking Framework",
+      "Agile & DevOps Culture",
+      "CI CD ",
+    ],
+    verificationLink:
+      "https://courses.vit.skillsnetwork.site/certificates/ae2f7591f94148689c01c8ad52788e4b",
+  },
+  {
     title: "DevOps Fundamentals - Certified by IBM",
     image: certificate13,
     description:
@@ -89,7 +105,6 @@ export const CERTIFICATES = [
       "Version Control Systems",
       "Automation & Monitoring Tools",
       "Agile & DevOps Culture",
-      "Power BI",
     ],
     verificationLink:
       "https://courses.vit.skillsnetwork.site/certificates/b27071f47ecf4eb48b7b7b328ebb761d",
