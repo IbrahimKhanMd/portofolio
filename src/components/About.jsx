@@ -64,7 +64,7 @@ const About = () => {
               <ul className="space-y-2 text-neutral-400">
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">▹</span>
-                  <span>Certified from Premier instituties like Salesforce , Harvard, AWS,TCS,IBM and many more </span>
+                  <span>Certified from Premier instituties like Salesforce ,Microsoft ,  Harvard ,TCS,IBM and many more </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">▹</span>
