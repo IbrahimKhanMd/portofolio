@@ -15,6 +15,7 @@ import certificate11 from "../assets/certifications/Certificate-11.png";
 import certificate12 from "../assets/certifications/Certificate-12.png";
 import certificate13 from "../assets/certifications/Certificate-13.jpg";
 import certificate14 from "../assets/certifications/Certificate-14.jpg";
+import certificate15 from "../assets/certifications/Certificate-15.jpg";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -80,6 +81,18 @@ export const EXPERIENCES = [
 ];
 
 export const CERTIFICATES = [
+ {
+    title: "Oracle Cloud Infrastructure 2025 Generative AI Professional",
+    image: certificate15,
+    description: "Demonstrated expertise in designing, implementing, and managing Generative AI solutions and services on Oracle Cloud Infrastructure (OCI). Gained proficiency in leveraging OCI's AI capabilities for various business applications.",
+    technologies: [
+        "Oracle Cloud Infrastructure (OCI)",
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "AI Services"
+    ],
+    "verificationLink": "https://www.linkedin.com/posts/patanmohammedibrahimkhan_oracle-oci-generativeai-activity-7352012391234129920-g-AY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nPPkBOMaTJC__6_0OJKwaWPwYVZxRCbg"
+},
   {
     title: "DevOps, Agile & Design Thinking  - Certified by IBM",
     image: certificate14,

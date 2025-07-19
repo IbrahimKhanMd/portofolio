@@ -45,7 +45,7 @@ const About = () => {
                     <ul className="space-y-2 text-neutral-400">
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">▹</span>
-                      <span>Programming: Proficient in Python, C, and C++, with deep expertise in data structures and algorithms</span>
+                      <span>Programming: Proficient in C and C++, with deep expertise in data structures and algorithms</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-purple-500 mr-2">▹</span>
@@ -64,7 +64,7 @@ const About = () => {
               <ul className="space-y-2 text-neutral-400">
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">▹</span>
-                  <span>Certified from Premier instituties like Salesforce ,Microsoft ,  Harvard ,TCS,IBM and many more </span>
+                  <span>Certified from Premier instituties like Salesforce,Microsoft,Harvard,TCS,IBM,Oracle </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-purple-500 mr-2">▹</span>
