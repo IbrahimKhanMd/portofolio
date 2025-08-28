@@ -19,7 +19,7 @@ import Tedx from "../assets/Experiences/tedx.png";
 import hackx from "../assets/Experiences/hacaX.jpg";
 import { image } from "framer-motion/client";
 
-export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a pre-final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
+export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
 export const EXPERIENCES = [
   {
     year: "8th Febauary 2025",
