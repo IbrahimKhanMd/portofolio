@@ -1,9 +1,6 @@
-import project2 from "../assets/projects/Gesture.jpg";
-import project3 from "../assets/projects/explore1.jpg";
-import certificate1 from "../assets/certifications/Certificate-1.png";
+import project1 from "../assets/projects/Gesture.jpg";
+import project2 from "../assets/projects/SonarMind.png"
 import certificate2 from "../assets/certifications/Certificate-2.png";
-import certificate3 from "../assets/certifications/Certificate-3.jpeg";
-import certificate4 from "../assets/certifications/Certificate-4.jpeg";
 import certificate5 from "../assets/certifications/Certificate5.png";
 import Achievement1 from "../assets/Achievements/A1.jpg";
 import Achievement2 from "../assets/Achievements/A2.jpeg";
@@ -94,7 +91,7 @@ export const CERTIFICATES = [
     "verificationLink": "https://www.linkedin.com/posts/patanmohammedibrahimkhan_oracle-oci-generativeai-activity-7352012391234129920-g-AY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nPPkBOMaTJC__6_0OJKwaWPwYVZxRCbg"
 },
   {
-    title: "DevOps, Agile & Design Thinking  - Certified by IBM",
+    title: "DevOps, Agile & Design Thinking - Certified by IBM",
     image: certificate14,
     description:
       "Learned the integration of DevOps culture, Agile methodology, and Design Thinking to deliver efficient, user-centric software solutions.",
@@ -201,21 +198,6 @@ export const CERTIFICATES = [
       "https://www.linkedin.com/posts/patanmohammedibrahimkhan_careergrowth-tcsion-youngprofessional-activity-7291758664867057664-G7tx?utm_source=share&utm_medium=member_desktop",
   },
   {
-    title: "Applied AI Developer Program - IBM",
-    image: certificate1,
-    description:
-      "Gained expertise in AI fundamentals , generative A.I , Prompt Engineering and Python for AI Applications",
-    technologies: [
-      "Front-end",
-      "Python",
-      "React",
-      "Prompt Engineering ",
-      "Data Analytics",
-    ],
-    verificationLink:
-      "https://credentials.edx.org/credentials/696188e872f846a2804d082ddaea96b0/",
-  },
-  {
     title: "Exercising Leadership-Harvard University",
     image: certificate2,
     description:
@@ -223,24 +205,6 @@ export const CERTIFICATES = [
     technologies: ["Time Management", "Team work", "Leadership"],
     verificationLink:
       "https://courses.edx.org/certificates/88b256ce8d95476f9d2851f2304c4db7",
-  },
-  {
-    title: "Cloud Solutions Architecture -AWS",
-    image: certificate3,
-    description:
-      "Mastered AWS cloud architecture solution design,data lake implementation and security best practices",
-    technologies: ["Amazon EC2", "Cloud Computing", "Security"],
-    verificationLink:
-      "https://credentials.edx.org/credentials/33d8c43f320d45158a488277a5e0eb8f/",
-  },
-  {
-    title: "Digitial Marketing masterclass - Udemy",
-    image: certificate4,
-    description:
-      "Acquired comprehensive digitial Marketing strategies for organisational success and personal branding.",
-    technologies: ["Google Analytics ", "SEO", "Word-press"],
-    verificationLink:
-      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_celebrating-my-new-certification-im-activity-7147127809356775424-ivHA?utm_source=share&utm_medium=member_desktop",
   },
   {
     title: "MongoDB Developer's ToolKit - By GeeksforGeeks",
@@ -259,23 +223,23 @@ export const CERTIFICATES = [
 ];
 export const PROJECTS = [
   {
-    title: "Iphone 15 Pro Website Clone",
-    image: project3,
+    title: "Sonar Mind: The Educational Assistant",
+    image: project2,
     description:
-      "This is a clone of the official Apple Iphone 15  pro website bringing the sleeve design and functionality to life using",
+      "This is an AI-powered educational tool that transforms lecture audio into interactive, searchable content using advanced Generative AI and Retrieval-Augmented Generation technologies.",
     technologies: [
-      "React.js",
-      "Three.js",
-      "React Three Fiber",
-      "GSAP(greenstock)",
-      "Tailwind CSS",
+      "Gemini Pro 2.5",
+      "ChromaDB",
+      "LangChain",
+      "Gradio",
+      "Python",
     ],
-    verificationLink: "https://github.com/IbrahimKhanMd/I-phone",
+    verificationLink: "https://huggingface.co/spaces/Khan7267/SonarMind",
   },
 
   {
     title: "Gesture Navigation using computer vision",
-    image: project2,
+    image: project1,
     description:
       "Implemented custom guesture recognition algorithm and Integrated PyAutoGUI to Translate hand moments into precise mouse actions",
     technologies: ["Python", "OpenCV", "MediaPipe"],
