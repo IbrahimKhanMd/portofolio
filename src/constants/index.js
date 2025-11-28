@@ -13,6 +13,7 @@ import certificate12 from "../assets/certifications/Certificate-12.png";
 import certificate13 from "../assets/certifications/Certificate-13.jpg";
 import certificate14 from "../assets/certifications/Certificate-14.jpg";
 import certificate15 from "../assets/certifications/Certificate-15.jpg";
+import certificate16 from "../assets/certifications/Certificate16.jpg";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -174,6 +175,15 @@ export const CERTIFICATES = [
     ],
     verificationLink:
       "https://learn.nvidia.com/certificates?id=TwbcxriHRqSSaScL9sB3Bw",
+  },
+  {
+    title: "Design & Implementation of Human-Computer Interfaces - Nptel ",
+    image: certificate16,
+    description:
+      "Successfully earned my Certificate with the total Score of 80% ",
+    technologies: ["SDLC", "Testing", "Cognitive Models", "UI Design Principles"],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_hello-connections-im-excited-to-share-activity-7398346381188530176-Ri7X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nPPkBOMaTJC__6_0OJKwaWPwYVZxRCbg",
   },
   {
     title: "Responsible & Safe A.I systems - Nptel ",
