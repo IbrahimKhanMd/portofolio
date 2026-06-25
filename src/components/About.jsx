@@ -1,28 +1,39 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import aboutImg2 from "../assets/about2.jpg";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { ABOUT_CONTENT } from "../constants";
 
 const About = () => {
+  const { title, image, intro, sections } = ABOUT_CONTENT;
+  const [activeSection, setActiveSection] = useState(null);
+  const [firstWord, secondWord] = title.split(" ");
+
+  const toggleSection = (index) => {
+    setActiveSection((current) => (current === index ? null : index));
+  };
+
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl">
-        About <span className="text-neutral-500">Me</span>
-      </h1>
-      
-      {/* Main container with flex layout */}
-      <div className="flex flex-col lg:flex-row items-center justify-center">
+    <div className="border-b border-neutral-900 pb-12">
+      <motion.h1
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-16 text-center text-4xl sm:text-5xl"
+      >
+        {firstWord} <span className="text-neutral-500">{secondWord}</span>
+      </motion.h1>
+
+      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2 lg:pr-8 flex justify-center"
+          className="flex justify-center lg:justify-center"
         >
-          {/* Image container with max width */}
-          <div className="max-w-md">
+          <div className="w-full max-w-[360px] rounded-[1.8rem] border border-neutral-700/80 bg-gradient-to-br from-neutral-900 via-neutral-900 to-neutral-800 p-2 shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_20px_60px_rgba(0,0,0,0.4)] sm:max-w-[380px]">
             <img
-              className="w-full h-auto object-cover rounded-lg shadow-lg"
-              src={aboutImg2}
-              alt="About"
+              className="h-auto w-full rounded-[1.35rem] object-cover"
+              src={image}
+              alt={title}
             />
           </div>
         </motion.div>
@@ -31,65 +42,64 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2 lg:pl-8 mt-8 lg:mt-0"
+          className="w-full"
         >
-          <div className="flex flex-col space-y-6 max-w-xl">
-            
-                  <p className="text-neutral-300 leading-relaxed">
-                    A passionate software developer specializing in web development and artificial intelligence, with a strong grasp of core programming principles and modern technologies.
-                  </p>
+          <div className="mx-auto max-w-2xl rounded-2xl border border-neutral-800/90 bg-neutral-900/70 p-4 shadow-[0_10px_40px_rgba(0,0,0,0.25)] sm:p-6">
+            <p className="mb-6 text-base leading-relaxed text-neutral-300 sm:text-lg">
+              {intro}
+            </p>
 
-                  {/* Core Skills */}
-                  <div>
-                    <h3 className="text-xl font-semibold mb-3 text-purple-100">Expertise</h3>
-                    <ul className="space-y-2 text-neutral-400">
-                    <li className="flex items-start">
-                      <span className="text-purple-500 mr-2">▹</span>
-                      <span>Programming: Proficient in C and C++, with deep expertise in data structures and algorithms</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-500 mr-2">▹</span>
-                      <span>Frontend Development: Skilled in HTML5, CSS3, JavaScript, React, and Bootstrap for creating dynamic, user-centric interfaces</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-purple-500 mr-2">▹</span>
-                      <span>Event Management: An engineer with complementary skills in event management for better project coordination</span>
-                    </li>
-                    </ul>
+            <div className="space-y-3">
+              {sections.map((section, index) => {
+                const isOpen = activeSection === index;
+                return (
+                  <div
+                    key={index}
+                    className="overflow-hidden rounded-xl border border-neutral-800/80 bg-neutral-950/70"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => toggleSection(index)}
+                      className="flex w-full items-center justify-between px-4 py-4 text-left"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-pink-500/20 to-purple-500/20 text-lg text-purple-300">
+                          {section.icon}
+                        </span>
+                        <div>
+                          <h3 className="text-lg font-semibold text-white">
+                            {section.heading}
+                          </h3>
+                          <p className="text-sm text-neutral-400">{section.summary}</p>
+                        </div>
+                      </div>
+                      <span className={`text-xl text-neutral-400 transition-transform ${isOpen ? "rotate-45" : ""}`}>
+                        +
+                      </span>
+                    </button>
+
+                    <AnimatePresence initial={false}>
+                      {isOpen && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: "auto", opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          transition={{ duration: 0.25 }}
+                        >
+                          <ul className="space-y-3 border-t border-neutral-800/80 px-4 py-4 text-sm leading-relaxed text-neutral-400">
+                            {section.items.map((item, itemIndex) => (
+                              <li key={itemIndex} className="flex items-start gap-2">
+                                <span className="mt-1 text-purple-400">•</span>
+                                <span>{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </div>
-
-                  {/* Certifications */}
-            <div>
-              <h3 className="text-xl font-semibold mb-3 text-purple-100">Achievements</h3>
-              <ul className="space-y-2 text-neutral-400">
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>Certified from Premier instituties like Salesforce,Microsoft,Harvard,TCS,IBM,Oracle </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>NPTEL Silver Medalist in Responsible AI Systems </span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Professional Approach */}
-            <div>
-              <h3 className="text-xl font-semibold mb-3 text-purple-100">Work Philosophy</h3>
-              <ul className="space-y-2 text-neutral-400">
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>Committed to writing clean, maintainable, and scalable code</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>Experienced in agile environments and version control using Git</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-purple-500 mr-2">▹</span>
-                  <span>Passionate about continuous learning and staying updated with industry trends</span>
-                </li>
-              </ul>
+                );
+              })}
             </div>
           </div>
         </motion.div>

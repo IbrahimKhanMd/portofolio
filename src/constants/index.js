@@ -18,9 +18,47 @@ import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
 import hackx from "../assets/Experiences/hacaX.jpg";
-import { image } from "framer-motion/client";
+import aboutImg2 from "../assets/about2.jpg";
 
-export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a final year Computer Science student at VIT-AP University, specializing in Business Systems. Passionate about front-end development and UI/UX design, I blend technical expertise with a strong foundation in data analytics and machine learning. My leadership and marketing skills enrich my approach to tech-business challenges. `;
+export const ABOUT_CONTENT = {
+  title: "About Me",
+  image: aboutImg2,
+  intro:
+    "A dedicated software engineer specializing in full-stack development and artificial intelligence. I bridge the gap between complex data systems and intuitive user experiences by building RAG-driven AI agents and scalable digital solutions.",
+  sections: [
+    {
+      heading: "Expertise",
+      icon: "⌘",
+      summary: "Systems, full-stack, and AI implementation",
+      items: [
+        "Programming & Core Systems: Proficient in C, C++, and Python with a strong foundation in DSA and OOPS.",
+        "Full-Stack & AI: Expert in building responsive React interfaces integrated with LangChain, FastAPI, and ChromaDB.",
+        "Technical Leadership: Experienced Technical Lead, recently managing technical operations for 70+ teams at Hackathon X.",
+      ],
+    },
+    {
+      heading: "Achievements",
+      icon: "✦",
+      summary: "Certifications, CGPA, and leadership milestones",
+      items: [
+        "Industry Certified: Professionally certified by global leaders including Oracle (Gen AI), SAP (BTP), Salesforce, and Microsoft.",
+        "Academic Excellence: Maintaining an 8.90 CGPA at VIT-AP University while completing leadership coursework from Harvard.",
+      ],
+    },
+    {
+      heading: "Work Philosophy",
+      icon: "◌",
+      summary: "AI-driven innovation, agile delivery, and impact",
+      items: [
+        "Innovation through AI: Focused on leveraging Generative AI and RAG to transform static data into intelligent automation tools.",
+        "Collaborative Agility: Committed to working in Agile environments using Git and GitHub for seamless project deployment.",
+        "Global Impact: Driven to build high-reach digital products, evidenced by my portfolio reaching users in seven countries.",
+      ],
+    },
+  ],
+};
+
+export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a final year Computer Science student at VIT-AP University specializing in Business Systems. Passionate about full-stack development and AI-driven solutions, I combine technical expertise in React with a strong background in Generative AI and RAG. My leadership as a Technical Lead and certifications from SAP, Oracle, and Microsoft further enhance my approach to building innovative, scalable tech-business products. `;
 export const EXPERIENCES = [
   {
     year: "8th Febauary 2025",

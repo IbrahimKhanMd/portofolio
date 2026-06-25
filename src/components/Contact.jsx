@@ -71,7 +71,7 @@ const Contact = () => {
             </h2>
             <div>
               <a
-                href="https://drive.google.com/file/d/1uR1PVhDDvuGx8iM1vqYcT4RHEQou8Wkz/view"
+                href="https://drive.google.com/file/d/13AtZ9TLoRXoy6G7y6dCdJvXdIGkYjpoT/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-neutral-700 hover:bg-neutral-600 text-neutral-200 px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30"
