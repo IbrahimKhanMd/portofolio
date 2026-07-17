@@ -4,6 +4,7 @@ import certificate2 from "../assets/certifications/Certificate-2.png";
 import certificate5 from "../assets/certifications/Certificate5.png";
 import Achievement1 from "../assets/Achievements/A1.jpg";
 import Achievement2 from "../assets/Achievements/A2.jpeg";
+import Achievement3 from "../assets/Achievements/A3.png";
 import certificate7 from "../assets/certifications/Certificate-7jpeg.jpeg";
 import certificate8 from "../assets/certifications/Certificate-8.png";
 import certificate9 from "../assets/certifications/Certificate-9.png";
@@ -14,6 +15,8 @@ import certificate13 from "../assets/certifications/Certificate-13.jpg";
 import certificate14 from "../assets/certifications/Certificate-14.jpg";
 import certificate15 from "../assets/certifications/Certificate-15.jpg";
 import certificate16 from "../assets/certifications/Certificate16.jpg";
+import certificate17 from "../assets/certifications/Certificate-1.png";
+import certificate18 from "../assets/certifications/Certificate-3.png";
 import csi from "../assets/Experiences/Csi.jpeg";
 import Nasa from "../assets/Experiences/Nasa.png";
 import Tedx from "../assets/Experiences/tedx.png";
@@ -61,7 +64,7 @@ export const ABOUT_CONTENT = {
 export const HERO_CONTENT = `I am Mohammed Ibrahim Khan, a final year Computer Science student at VIT-AP University specializing in Business Systems. Passionate about full-stack development and AI-driven solutions, I combine technical expertise in React with a strong background in Generative AI and RAG. My leadership as a Technical Lead and certifications from SAP, Oracle, and Microsoft further enhance my approach to building innovative, scalable tech-business products. `;
 export const EXPERIENCES = [
   {
-    year: "8th Febauary 2025",
+    year: "8th February 2025",
     role: "Event Manager",
     company: "National Cyber Security Research Council (NCSRC)",
     description: `Successfully organized a large-scale event with 300+ participants from 13 institutions, leveraging team management and coordination skills.`,
@@ -117,6 +120,30 @@ export const EXPERIENCES = [
 ];
 
 export const CERTIFICATES = [
+{
+    "title": "SAP Certified - SAP Business Data Cloud",
+    "image": certificate17,
+    "description": "Acquired a solid foundational understanding of the SAP Business Data Cloud. Demonstrated the essential skills and high-level overview required to actively contribute as an effective member of a project implementation team.",
+    "technologies": [
+        "SAP Business Data Cloud",
+        "Data Management",
+        "Cloud Analytics",
+        "Project Implementation"
+    ],
+    "verificationLink": "https://www.credly.com/badges/666584e2-35f0-4972-8d92-7e070b4564a2/linked_in?t=thy1i7 "
+},
+{
+    "title": "SAP Certified - Positioning SAP Business AI Platform",
+    "image": certificate18,
+    "description": "Acquired foundational knowledge of the SAP Business AI Platform and SAP Business Technology Platform (BTP) core capabilities. Demonstrated the ability to position how intelligent technologies integrate into business processes, support innovative application development, and leverage data for analysis and visualization.",
+    "technologies": [
+        "SAP Business AI Platform",
+        "SAP Business Technology Platform (BTP)",
+        "Intelligent Technologies",
+        "Data Analysis & Visualization"
+    ],
+    "verificationLink": "https://www.credly.com/badges/a18af998-64c4-4c89-b462-62267fcb858d/linked_in?t=thy19a"
+},
  {
     title: "Oracle Cloud Infrastructure 2025 Generative AI Professional",
     image: certificate15,
@@ -295,6 +322,24 @@ export const PROJECTS = [
   },
 ];
 export const ACHIEVEMENTS = [
+  {
+    title: "First Prize in Coding Competition - RVR&JC Engineering College",
+    image: Achievement3,
+    year: "2025",
+    category: "Competitive coding Competition",
+    description:
+      "1st Prize in the coding Event conducted by the Department of Computer Science and Engineering as part of Colorido, the technical fest at RVR&JC Engineering College",
+    impact:
+      "Demonstrated superior problem-solving ,coding skills and team work against competing finalists",
+    technologies: [
+      "C++",
+      "Python",
+      "Problem Solving",
+      "Coding",
+    ],
+    verificationLink:
+      "https://www.linkedin.com/posts/patanmohammedibrahimkhan_so-proud-of-what-we-achieved-together-taking-ugcPost-7411267404342915072-q1W1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nPPkBOMaTJC__6_0OJKwaWPwYVZxRCbg",
+  },
   {
     title: "First Prize in Colloquy Competition - RVR&JC Engineering College",
     image: Achievement1,
