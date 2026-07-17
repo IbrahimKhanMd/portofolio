@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/Gesture.jpg";
 import project2 from "../assets/projects/SonarMind.png"
+import project3 from "../assets/projects/TestPilot.jpg";
 import certificate2 from "../assets/certifications/Certificate-2.png";
 import certificate5 from "../assets/certifications/Certificate5.png";
 import Achievement1 from "../assets/Achievements/A1.jpg";
@@ -297,6 +298,20 @@ export const CERTIFICATES = [
   },
 ];
 export const PROJECTS = [
+  {
+    "title": "Test Pilot: Smart Autonomous QA Agent",
+    "image": project3,
+    "description": "Developed an AI-powered QA automation system utilizing Retrieval-Augmented Generation (RAG) to transform multi-format project documentation into structured test cases and executable Python Selenium automation scripts with precise contextual grounding.",
+    "technologies": [
+        "Selenium",
+        "FastAPI",
+        "ChromaDB",
+        "Retrieval-Augmented Generation (RAG)",
+        "Python",
+        "JSON"
+    ],
+    "verificationLink": "https://github.com/IbrahimKhanMd/TestPilot"
+},
   {
     title: "Sonar Mind: The Educational Assistant",
     image: project2,
